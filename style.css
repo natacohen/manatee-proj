@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&family=Poppins:wght@200&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #b7dcf0;
+}
+
+html,
+body {
+  height: 100%;
+  padding-top: 0;
+}
+head {
+padding-top: 0;
+  
+}
+
+h1 {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.p5container {
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+.overlay {
+  position: absolute;
+  z-index: 3 !important;
+}
